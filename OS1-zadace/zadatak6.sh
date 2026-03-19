@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir ~/Documents/vjezba6
 touch ~/Documents/{OS_script.md,notes.txt}
 mkdir ~/Documents/scripts
