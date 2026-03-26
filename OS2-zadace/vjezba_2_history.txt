@@ -5,4 +5,9 @@ echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
 echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css 
 echo 'VJEZBE=OS' > vjezba_2/data/.env 
 cat vjezba_2/data/* vjezba_2/data/.*
-history > vjezba_2_history.txt
+
+
+cp -rv vjezba_2/data/. vjezba_2/backup/
+cd vjezba_2/data/
+ls -las ../backup/
+
