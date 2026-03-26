@@ -1,0 +1,11 @@
+[11:18:36] benito@debianchek:~/OS-vjezbe/OS2-zadace$ mkdir -p vjezba_2/data
+[11:18:58] benito@debianchek:~/OS-vjezbe/OS2-zadace$ mkdir vjezba_2/backup
+[11:19:02] benito@debianchek:~/OS-vjezbe/OS2-zadace$ touch vjezba_2/data/{script.js,style.css,.env}
+[11:19:25] benito@debianchek:~/OS-vjezbe/OS2-zadace$ echo 'console.log("Hello, World!")' > vjezba_2/data/script.js 
+[11:20:13] benito@debianchek:~/OS-vjezbe/OS2-zadace$ echo 'body {background-color: #f0f0f0; }' > vjezba_2/data/style.css 
+[11:20:28] benito@debianchek:~/OS-vjezbe/OS2-zadace$ echo 'VJEZBE=OS' > vjezba_2/data/.env 
+[11:20:38] benito@debianchek:~/OS-vjezbe/OS2-zadace$ cat vjezba_2/data/* vjezba_2/data/.*
+console.log("Hello, World!")
+body {background-color: #f0f0f0; }
+VJEZBE=OS
+
