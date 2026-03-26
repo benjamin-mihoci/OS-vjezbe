@@ -22,3 +22,26 @@ total 20
 4 -rw-rw-r-- 1 benito benito   29 Mar 26 11:22 script.js
 4 -rw-rw-r-- 1 benito benito   35 Mar 26 11:22 style.css
 
+
+[11:23:03] benito@debianchek:~/OS-vjezbe/OS2-zadace$ rm -i vjezba_2/data/*
+rm: remove regular file 'vjezba_2/data/script.js'? y
+rm: remove regular file 'vjezba_2/data/style.css'? y
+[11:23:18] benito@debianchek:~/OS-vjezbe/OS2-zadace$ cp -rvn vjezba_2/backup/. vjezba_2/data/
+'vjezba_2/backup/./script.js' -> 'vjezba_2/data/./script.js'
+'vjezba_2/backup/./style.css' -> 'vjezba_2/data/./style.css'
+[11:23:25] benito@debianchek:~/OS-vjezbe/OS2-zadace$ ls -At1 vjezba_2/data/
+script.js
+style.css
+.env
+[11:23:32] benito@debianchek:~/OS-vjezbe/OS2-zadace$ ls -lAt1 vjezba_2/data/
+total 12
+-rw-rw-r-- 1 benito benito 29 Mar 26 11:23 script.js
+-rw-rw-r-- 1 benito benito 35 Mar 26 11:23 style.css
+-rw-rw-r-- 1 benito benito 10 Mar 26 11:20 .env
+[11:23:38] benito@debianchek:~/OS-vjezbe/OS2-zadace$ tree vjezba_2/data
+vjezba_2/data
+├── script.js
+└── style.css
+
+1 directory, 2 files
+
