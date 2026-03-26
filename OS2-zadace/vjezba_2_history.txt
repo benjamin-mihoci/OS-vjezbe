@@ -1,0 +1,42 @@
+ 1798  mkdir OS2-zadace
+ 1799  cd OS2-zadace/
+ 1800  mkdir -p vjezba_2/data
+ 1801  mkdir vjezba_2/backup
+ 1802  touch vjezba_2/data/{script.js,style.css,.env}
+ 1803  echo 'console.log("Hello, World!")' > vjezba_2/data/script.js 
+ 1804  echo 'body {background-color: #f0f0f0; }' > vjezba_2/data/style.css 
+ 1805  echo 'VJEZBE=OS' > vjezba_2/data/.env 
+ 1806  cat vjezba_2/data/* vjezba_2/data/.*
+ 1807  vim vjezba_2.txt
+ 1808  git add .
+ 1809  git commit -m "rijesen zadatak 2"
+ 1810  git push
+ 1811  cp -rv vjezba_2/data/. vjezba_2/backup/
+ 1812  cd vjezba_2/data/
+ 1813  ls -las ../backup/
+ 1814  vim ../../vjezba_2.txt 
+ 1815  cd ..
+ 1816  vim vjezba_2.txt 
+ 1817  git add .
+ 1818  git commit -m "rijesen zadatak 3"
+ 1819  git push
+ 1820  rm -i vjezba_2/data/*
+ 1821  cp -rvn vjezba_2/backup/. vjezba_2/data/
+ 1822  ls -At1 vjezba_2/data/
+ 1823  ls -lAt1 vjezba_2/data/
+ 1824  tree vjezba_2/data
+ 1825  vim vjezba_2.txt 
+ 1826  git add .
+ 1827  git commit -m "rijesen zadatak 4"
+ 1828  git push
+ 1829  cd ~/programiranje
+ 1830  ls -las
+ 1831  ls -lAsh
+ 1832  tree -a
+ 1833  ls
+ 1834  cd -
+ 1835  vim vjezba_2.txt 
+ 1836  git add .
+ 1837  git commit -m "rijesen zadatak 5"
+ 1838  git push
+ 1839  history >> vjezba_2_history.txt
