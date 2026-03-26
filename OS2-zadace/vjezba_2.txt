@@ -9,3 +9,16 @@ console.log("Hello, World!")
 body {background-color: #f0f0f0; }
 VJEZBE=OS
 
+[11:21:47] benito@debianchek:~/OS-vjezbe/OS2-zadace$ cp -rv vjezba_2/data/. vjezba_2/backup/
+'vjezba_2/data/./script.js' -> 'vjezba_2/backup/./script.js'
+'vjezba_2/data/./style.css' -> 'vjezba_2/backup/./style.css'
+'vjezba_2/data/./.env' -> 'vjezba_2/backup/./.env'
+[11:22:09] benito@debianchek:~/OS-vjezbe/OS2-zadace$ cd vjezba_2/data/
+[11:22:12] benito@debianchek:~/OS-vjezbe/OS2-zadace/vjezba_2/data$ ls -las ../backup/
+total 20
+4 drwxrwxr-x 2 benito benito 4096 Mar 26 11:22 .
+4 drwxrwxr-x 4 benito benito 4096 Mar 26 11:19 ..
+4 -rw-rw-r-- 1 benito benito   10 Mar 26 11:22 .env
+4 -rw-rw-r-- 1 benito benito   29 Mar 26 11:22 script.js
+4 -rw-rw-r-- 1 benito benito   35 Mar 26 11:22 style.css
+
