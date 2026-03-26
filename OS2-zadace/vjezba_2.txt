@@ -45,3 +45,148 @@ vjezba_2/data
 
 1 directory, 2 files
 
+
+[11:24:25] benito@debianchek:~/OS-vjezbe/OS2-zadace$ cd ~/programiranje
+[11:24:41] benito@debianchek:~/programiranje$ ls -las
+total 104
+ 4 drwxrwxr-x  5 benito benito  4096 Mar 26 11:15 .
+ 4 drwx------ 67 benito benito  4096 Mar 26 11:24 ..
+ 4 -rw-rw-r--  1 benito benito   574 Jan  4 17:14 7_bubble_sort.cpp
+ 4 -rw-rw-r--  1 benito benito   498 Jan  4 12:26 7_exchange_sort.cpp
+ 4 -rw-rw-r--  1 benito benito   445 Jan  4 13:06 7_insertion_sort.cpp
+ 4 -rw-rw-r--  1 benito benito   871 Jan  4 12:13 7_selection_sort.cpp
+20 -rwxrwxr-x  1 benito benito 16600 Mar  2 08:25 a.out
+ 4 -rw-rw-r--  1 benito benito   228 Mar  2 08:25 break.cpp
+ 4 -rw-rw-r--  1 benito benito   143 Oct 26 16:16 igranje_stringova.cpp
+ 4 drwxrwxr-x  3 benito benito  4096 Jan 20 19:31 kolokvij_2
+ 4 -rw-rw-r--  1 benito benito   406 Jan 15 18:45 pojnteri.cpp
+ 4 -rw-rw-r--  1 benito benito   364 Oct 26 10:53 predavanje5.cpp
+ 4 -rw-rw-r--  1 benito benito   790 Mar  1 14:31 quicksort.cpp
+ 0 -rw-rw-r--  1 benito benito     0 Mar 26 11:15 .skrivenfajl
+ 4 drwxrwxr-x  7 benito benito  4096 Jan 20 16:02 vjezbanje_2
+ 4 drwxrwxr-x  2 benito benito  4096 Dec  1 17:25 vjezbanje_za_kol
+ 4 -rw-rw-r--  1 benito benito   230 Oct 26 11:15 zadatak5_1.cpp
+ 4 -rw-rw-r--  1 benito benito   200 Oct 26 11:27 zadatak5_2.cpp
+ 4 -rw-rw-r--  1 benito benito   397 Oct 26 11:23 zadatak5_3.cpp
+ 4 -rw-rw-r--  1 benito benito   281 Oct 30 19:32 zadatak6_1.cpp
+ 4 -rw-rw-r--  1 benito benito   453 Oct 30 19:42 zadatak6_2.cpp
+ 4 -rw-rw-r--  1 benito benito   500 Oct 30 19:52 zadatak6_3.cpp
+ 4 -rw-rw-r--  1 benito benito   571 Jan 13 13:41 zadatak_8_1.cpp
+[11:24:43] benito@debianchek:~/programiranje$ ls -lAsh
+total 96K
+4.0K -rw-rw-r-- 1 benito benito  574 Jan  4 17:14 7_bubble_sort.cpp
+4.0K -rw-rw-r-- 1 benito benito  498 Jan  4 12:26 7_exchange_sort.cpp
+4.0K -rw-rw-r-- 1 benito benito  445 Jan  4 13:06 7_insertion_sort.cpp
+4.0K -rw-rw-r-- 1 benito benito  871 Jan  4 12:13 7_selection_sort.cpp
+ 20K -rwxrwxr-x 1 benito benito  17K Mar  2 08:25 a.out
+4.0K -rw-rw-r-- 1 benito benito  228 Mar  2 08:25 break.cpp
+4.0K -rw-rw-r-- 1 benito benito  143 Oct 26 16:16 igranje_stringova.cpp
+4.0K drwxrwxr-x 3 benito benito 4.0K Jan 20 19:31 kolokvij_2
+4.0K -rw-rw-r-- 1 benito benito  406 Jan 15 18:45 pojnteri.cpp
+4.0K -rw-rw-r-- 1 benito benito  364 Oct 26 10:53 predavanje5.cpp
+4.0K -rw-rw-r-- 1 benito benito  790 Mar  1 14:31 quicksort.cpp
+   0 -rw-rw-r-- 1 benito benito    0 Mar 26 11:15 .skrivenfajl
+4.0K drwxrwxr-x 7 benito benito 4.0K Jan 20 16:02 vjezbanje_2
+4.0K drwxrwxr-x 2 benito benito 4.0K Dec  1 17:25 vjezbanje_za_kol
+4.0K -rw-rw-r-- 1 benito benito  230 Oct 26 11:15 zadatak5_1.cpp
+4.0K -rw-rw-r-- 1 benito benito  200 Oct 26 11:27 zadatak5_2.cpp
+4.0K -rw-rw-r-- 1 benito benito  397 Oct 26 11:23 zadatak5_3.cpp
+4.0K -rw-rw-r-- 1 benito benito  281 Oct 30 19:32 zadatak6_1.cpp
+4.0K -rw-rw-r-- 1 benito benito  453 Oct 30 19:42 zadatak6_2.cpp
+4.0K -rw-rw-r-- 1 benito benito  500 Oct 30 19:52 zadatak6_3.cpp
+4.0K -rw-rw-r-- 1 benito benito  571 Jan 13 13:41 zadatak_8_1.cpp
+[11:24:55] benito@debianchek:~/programiranje$ tree -a
+.
+├── 7_bubble_sort.cpp
+├── 7_exchange_sort.cpp
+├── 7_insertion_sort.cpp
+├── 7_selection_sort.cpp
+├── a.out
+├── break.cpp
+├── igranje_stringova.cpp
+├── kolokvij_2
+│   ├── 3K_datoteke
+│   │   ├── brojevi.dat
+│   │   ├── brojevi.txt
+│   │   ├── __MACOSX
+│   │   │   ├── ._brojevi.dat
+│   │   │   ├── ._brojevi.txt
+│   │   │   └── ._prva.txt
+│   │   └── prva.txt
+│   ├── 3K_datoteke.zip
+│   ├── a.out
+│   ├── stanovi.txt
+│   ├── zadatak_1.cpp
+│   ├── zadatak_2.cpp
+│   ├── zadatak_3.cpp
+│   ├── zadatak_4.cpp
+│   ├── zadatak_5.cpp
+│   └── zadatak_6.cpp
+├── pojnteri.cpp
+├── predavanje5.cpp
+├── quicksort.cpp
+├── .skrivenfajl
+├── vjezbanje_2
+│   ├── a.out
+│   ├── funkcije.cpp
+│   ├── Programiranje_8_bz.pdf
+│   ├── ProgramiranjeVJ_10.pdf
+│   ├── test.cpp
+│   ├── zadaci1_i_2
+│   │   ├── drugi_kol_1.cpp
+│   │   ├── drugi_kol_2.cpp
+│   │   ├── drugi_kol_3.cpp
+│   │   ├── drugi_kol_4.cpp
+│   │   └── drugi_kol.cpp
+│   ├── zadatak_3
+│   │   ├── a.out
+│   │   ├── drugi_kol_1.cpp
+│   │   ├── drugi_kol_2.cpp
+│   │   ├── drugi_kol_3.cpp
+│   │   └── drugi_kol_4.cpp
+│   ├── zadatak_4
+│   │   ├── a.out
+│   │   ├── drugi_kol_1.cpp
+│   │   ├── drugi_kol_2.cpp
+│   │   ├── drugi_kol_3.cpp
+│   │   └── drugi_kol_4.cpp
+│   ├── zadatak_5
+│   │   ├── a.out
+│   │   ├── drugi_kol_1.cpp
+│   │   ├── drugi_kol_2.cpp
+│   │   └── drugi_kol_3.cpp
+│   └── zadatak_6
+│       ├── a.out
+│       ├── drugi_kol_1.cpp
+│       ├── drugi_kol_2.cpp
+│       ├── fajl.txt
+│       ├── gradovi.txt
+│       ├── kontakti.txt
+│       └── test.txt
+├── vjezbanje_za_kol
+│   ├── a.out
+│   ├── brojsati.cpp
+│   ├── cetveroznam.cpp
+│   ├── faktorijel.cpp
+│   ├── fibonac.cpp
+│   ├── kalk_ocj.cpp
+│   ├── kolo2.cpp
+│   ├── kolo3.cpp
+│   ├── kolo.cpp
+│   ├── menu.cpp
+│   ├── nasumce.cpp
+│   ├── prosti.cpp
+│   ├── samogl.cpp
+│   ├── savrseni.cpp
+│   ├── tab_mnoz.cpp
+│   └── testiranje.cpp
+├── zadatak5_1.cpp
+├── zadatak5_2.cpp
+├── zadatak5_3.cpp
+├── zadatak6_1.cpp
+├── zadatak6_2.cpp
+├── zadatak6_3.cpp
+└── zadatak_8_1.cpp
+
+11 directories, 80 files
+
