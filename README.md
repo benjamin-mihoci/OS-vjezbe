@@ -1,1 +1,1 @@
-#Repositorijum za vježbaonu Operacionih sistema
+Repositorijum za vježbaonu Operacionih sistema
