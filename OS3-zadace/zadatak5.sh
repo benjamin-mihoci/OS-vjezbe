@@ -4,8 +4,6 @@ if [[ $# -ne 1 ]]; then
 	exit 1
 fi
 
-DIREKTORIJ=$1
-
 if [[ !(-e $1 && -d $1) ]]; then
 	echo "Direktorij na toj putanji ne postoji!"
 	exit 1
